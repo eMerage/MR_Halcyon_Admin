@@ -27,17 +27,14 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MR_COORDI/api/\"'
-          //  buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MR_DCR_DEMO/api/\"'
             buildConfigField "String", "API_TOKEN_ID", '\"5050\"'
 
         }
         debug {
-
-          //  buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MedicalRep_DCR/api/\"'
             buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MR_COORDI/api/\"'
             buildConfigField "String", "API_TOKEN_ID", '\"5050\"'
 
-            //   buildConfigField "String", "API_BASE_URL", '\"http://mealtime.emerge.lk:7777/OnMeal_Production/api/\"'
+
 
         }
     }
@@ -45,7 +42,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.google.android.gms:play-services-maps:16.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
