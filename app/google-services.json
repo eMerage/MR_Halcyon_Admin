@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "100822190355",
+    "firebase_url": "https://mr-solution-admin.firebaseio.com",
+    "project_id": "mr-solution-admin",
+    "storage_bucket": "mr-solution-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100822190355:android:be5d06de76d6e962",
+        "android_client_info": {
+          "package_name": "emerge.project.mrsolution_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100822190355-j337uakrrpg5si2kbkcutnu0pgdeprv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "emerge.project.mrsolution_admin",
+            "certificate_hash": "76e9ce16908e0b0084622bdc1bc308acb8446c6d"
+          }
+        },
+        {
+          "client_id": "100822190355-tmuc3vf6o0jt6e3g7vvpfm39l3stjg6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "emerge.project.mrsolution_admin",
+            "certificate_hash": "4f81b72f4b2214a0e54d4696b45687b184ccfae7"
+          }
+        },
+        {
+          "client_id": "100822190355-kc8ea4pneeufbq4utco1qe61p2h6eq79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3hfk811M-x8m0zor5fImjqXqXbgpSFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100822190355-kc8ea4pneeufbq4utco1qe61p2h6eq79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
